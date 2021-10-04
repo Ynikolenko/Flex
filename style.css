@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto; 
+}
+
+.row {
+    display: flex;
+    height: 600px;
+}
+
+.item {
+    flex: 1rem;
+    padding: 100px 0px;
+}
+
+.item_1 {
+    background-color: #990066;
+    align-self: flex-end;
+}
+
+.item_2 {
+    background-color: #330099;
+    align-self: center;
+}
+
+.item_3 {
+    background-color: #ff6600;
+    align-self: normal;
+}
+
+.item_4 {
+    background-color: #cc3300;
+    align-self: start;
+}
